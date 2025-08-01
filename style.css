@@ -1,0 +1,69 @@
+/* style.css */
+
+/* General Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Task Input */
+#taskInput {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Buttons */
+button.btn-primary {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+/* Task List */
+#taskList li {
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#taskList li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons inside each list item */
+#taskList .btn {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Completed Task Style */
+.text-decoration-line-through {
+  text-decoration: line-through !important;
+  opacity: 0.6;
+}
+
+/* Alert Placeholder Spacing */
+#alertPlaceholder {
+  margin-bottom: 20px;
+}
+.progress-bar {
+  transition: width 0.5s ease-in-out;
+}
+
