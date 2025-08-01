@@ -37,7 +37,7 @@ error_reporting(E_ALL);
     <h2 class="text-center mb-4">To-Do List</h2>
 
     <?php
-      // Ensure completed column is present and safe
+     
       $countResult = $conn->query("SELECT COUNT(*) AS total FROM tasks");
       $completedResult = $conn->query("SELECT COUNT(*) AS completed FROM tasks WHERE completed = 1");
 
